@@ -1,0 +1,42 @@
+main {
+    background: #F4AFFF;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.block {
+    margin: 50px;
+    cursor: pointer;
+}
+
+h2, p {
+    text-align: center;
+}
+
+p {
+    opacity: 0.5;
+}
+
+.fa-bell:hover {
+    transition: 1s;
+    transform: scale(2);
+    color: #2a69a6;
+
+}
+
+.block_icon {
+    display: flex;
+    justify-content: center;
+}
+.far {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.far:hover {
+    border: 2px solid yellow;
+}
